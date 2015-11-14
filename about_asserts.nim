@@ -1,7 +1,11 @@
 import unittest
-
-let
-  replace_me : bool = false
+import koans
 
 test "assert truth":
-  check replace_me
+  assert false
+
+test "assert with message":
+  assert false, "This should be true -- Please fix this"
+
+test "fill in values in expression of comparison":
+  check replaceInt == 1 + 1
