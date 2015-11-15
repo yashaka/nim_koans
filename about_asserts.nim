@@ -7,5 +7,5 @@ test "assert truth":
 test "assert with message":
   assert false, "This should be true -- Please fix this"
 
-test "fill in values in expression of comparison":
+test "assert with better print-out on error":
   check replaceInt == 1 + 1
