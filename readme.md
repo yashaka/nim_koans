@@ -8,6 +8,7 @@ Usually the fix is around replacement of some "replace variables". The process (
 
 Go ahead and run nim koans, find the next "failing" one, go to the code, understand it and replace the "wrong parts" with a proper fix  ;) On the way to "ALL PASSED" you will achieve enlightenment ;)
 
+This version of koans is inspired by original [ruby koans](https://github.com/neo/ruby_koans), their [python version](https://github.com/gregmalcolm/python_koans), and [learnxinyminutes nim tutorial](http://learnxinyminutes.com/docs/nim/)
 
 ## Howto
 
@@ -24,6 +25,13 @@ about_asserts.nim(5)
 * rerun `$ nim c -r path_to_enlightenment.nim`
 * and so on... untill you make all koans PASSED.
 
+## What next?
+
+Once you are familiar with basic nim syntax, it is recommended to improve your skills at real coding tasks (not just 'fixing tests').
+
+The most close to koans in context of "working in real local code environment" style is [exercism.io](http://exercism.io) project. Install it and execute `exercism fetch nimrod` to get available nim problems to be solved.
+
+
 ## Configuration
 
 In case you want to see the full list of failed koans, change:
@@ -35,3 +43,7 @@ to
 unittest.abortOnError = false
 ```
 in `path_to_enlightenment.nim`
+
+## Status
+
+Nim koans development is "in progress" and still needs more koans to be added to cover main nim features. 
